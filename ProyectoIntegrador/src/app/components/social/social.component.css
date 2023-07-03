@@ -1,3 +1,4 @@
 Img{
     width: 50px;
+    flex-direction: row-reverse;
 }

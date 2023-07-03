@@ -1,3 +1,28 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
 #logoAp{
     width:150px;
+}
+.ingreso{
+    margin-right: 0.5em;
+}
+Img{
+    width: 50px;
+}
+
+.redes img{
+    margin:0.5em;
+}
+@media (max-width =575px){
+.container{
+    flex-direction: column;
+}
+.redes{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
 }
